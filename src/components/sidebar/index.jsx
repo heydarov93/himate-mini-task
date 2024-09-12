@@ -1,9 +1,15 @@
-function sidebar() {
+import SidebarHeader from "./sidebar-header/SidebarHeader";
+import Navigation from "./navigation/Navigation";
+import SidebarFooter from "./sidebar-footer";
+
+function Sidebar() {
   return (
-    <div>
-      sidebar
-    </div>
+    <aside className="min-h-screen border-r-2">
+      <SidebarHeader />
+      <Navigation />
+      <SidebarFooter />
+    </aside>
   );
 }
 
-export default sidebar;
+export default Sidebar;
