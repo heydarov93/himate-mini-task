@@ -3,11 +3,13 @@ import Sidebar from "../components/sidebar";
 
 function AppLayout() {
   return (
-    <div className="flex gap-16">
+    <div className="flex justify-start">
       <Sidebar />
-      <main>
-        <Outlet />
-      </main>
+      <div className="w-full px-8 pt-8">
+        <main>
+          <Outlet />
+        </main>
+      </div>
     </div>
   );
 }

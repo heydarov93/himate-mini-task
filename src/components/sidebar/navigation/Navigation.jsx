@@ -35,12 +35,12 @@ const menus = [
 
 function Navigation() {
   return (
-    <ul>
+    <ul className="flex flex-col gap-1">
       {menus.map((menu) => (
-        <li key={menu.name}>
-          <Link to={menu.link}>
-            <img src={menu.icon} alt="" />
-            {menu.name}
+        <li className="px-3 py-2" key={menu.name}>
+          <Link className="flex items-start gap-3" to={menu.link}>
+            <img className="h-6 w-6" src={menu.icon} alt="" />
+            <span className="font-semibold leading-6">{menu.name}</span>
           </Link>
         </li>
       ))}

@@ -1,0 +1,70 @@
+{
+  "experiences": [
+    {
+      "companyName": "Kapital Bank",
+      "employmentType": "Full Time",
+      "startDate": "2023-05-31",
+      "endDate": null,
+      "responsibilities": "My favorite city so far!",
+      "position": "Lead Product Designer",
+      "id": 73930385
+    },
+    {
+      "companyName": "ABB Bank",
+      "employmentType": "Part Time",
+      "startDate": "2020-04-23",
+      "endDate": "2022-10-3",
+      "responsibilities": "My favorite city so far!",
+      "position": "UX UI Designer",
+      "id": 73930386
+    },
+    {
+      "companyName": "Bank of Baku",
+      "employmentType": "Full Time",
+      "startDate": "2018-02-15",
+      "endDate": "2020-04-23",
+      "responsibilities": "My favorite city so far!",
+      "position": "UX Designer",
+      "id": 73930387
+    },
+    {
+      "companyName": "Bank Respublika",
+      "employmentType": "Full Time",
+      "startDate": "2016-01-01",
+      "endDate": "2018-02-15",
+      "responsibilities": "My favorite city so far!",
+      "position": "UI Designer",
+      "id": 73930388
+    },
+    {
+      "position": "Front",
+      "companyName": "himate",
+      "isCurrentCompany": true,
+      "responsibilities": "herrerrwqwqeqtwyyrrewe",
+      "startDate": "2024-09-13T20:00:00.000Z",
+      "endDate": null,
+      "employmentType": "Part Time",
+      "id": 73930389
+    },
+    {
+      "position": "Backend",
+      "companyName": "Himate",
+      "isCurrentCompany": false,
+      "responsibilities": "ifowihfowehgpeufhpwfug[wugf[wug",
+      "startDate": "2024-08-31T20:00:00.000Z",
+      "endDate": "2024-09-25T20:00:00.000Z",
+      "employmentType": "Contract",
+      "id": 73930390
+    },
+    {
+      "position": "Front",
+      "companyName": "himate",
+      "isCurrentCompany": true,
+      "responsibilities": "dqdqdqd",
+      "startDate": "2024-09-13T20:00:00.000Z",
+      "endDate": null,
+      "employmentType": "Part time",
+      "id": 73930391
+    }
+  ]
+}

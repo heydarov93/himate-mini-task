@@ -4,9 +4,11 @@ import SidebarFooter from "./sidebar-footer";
 
 function Sidebar() {
   return (
-    <aside className="min-h-screen border-r-2">
-      <SidebarHeader />
-      <Navigation />
+    <aside className="border-primary flex min-h-screen max-w-[17.5rem] flex-col justify-between border-r px-4 py-[2rem]">
+      <div>
+        <SidebarHeader />
+        <Navigation />
+      </div>
       <SidebarFooter />
     </aside>
   );

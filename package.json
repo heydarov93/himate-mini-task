@@ -7,12 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch data/experiences.json --port 7000 --delay 500"
   },
   "dependencies": {
+    "antd": "^5.20.6",
+    "json-server": "^0.17.4",
     "react": "^18.3.1",
+    "react-datepicker": "^7.3.0",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2"
+    "react-hook-form": "^7.53.0",
+    "react-router-dom": "^6.26.2",
+    "react-select": "^5.8.0",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

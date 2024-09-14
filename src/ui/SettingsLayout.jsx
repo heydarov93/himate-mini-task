@@ -3,7 +3,7 @@ import SettingsHeader from "../components/settings/settings-header";
 
 function SettingsLayout() {
   return (
-    <div className="">
+    <div>
       <SettingsHeader />
       <div>
         <Outlet />
