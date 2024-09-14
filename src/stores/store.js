@@ -13,7 +13,7 @@ const useExperienceStore = create((set) => ({
 
       const data = await response.json();
 
-      set({ experiences: data, isLoading: false, error: null });
+      set({ experiences: data.reverse(), isLoading: false, error: null });
     } catch (error) {
       console.log("Error fetching experiences", error);
       set({ error: error.message, isLoading: false });
